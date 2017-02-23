@@ -1,5 +1,6 @@
-<div class="jumbotron">
-  <h5><%= gettext "Welcome to the best %{name}", name: "Poker game!" %></h5>
+<div class="jumbotron"><h1>"Welcome to the best Poker game!"</h1>
+  <h5><%= gettext " %{name}", name: "" %></h5>
+
   <p class="lead"> <br /> Where you can win big $$$ </p>
 </div>
 
@@ -38,7 +39,17 @@
   </div>
 </div>
 
-    
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    text-shadow: 5px 5px #FF0000;
+}
+
+
+
+  
             
 
 
