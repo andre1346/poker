@@ -17,7 +17,7 @@ defmodule Poker.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/new/card", GameController, :new
+    get "/new/game", GameController, :new
   end
 
   # Other scopes may use custom stacks.

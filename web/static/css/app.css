@@ -1,1 +1,9 @@
 /* This file is for your main application css. */
+
+h1 {
+    text-shadow: 5px 5px #FF0000;
+}
+
+.lead {
+	color:red;
+}
