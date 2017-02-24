@@ -1,0 +1,7 @@
+<%=form_for @changeset, game_path(@conn, :create), fn f -> %>
+<div class="form-group">
+   <%=text_input f, :player_amount, placeholder: "Player_amount", class: "form-control" %>
+ <%=submit "Save Game", class: "btn btn_primary" %>
+</div>
+
+<% end %>
