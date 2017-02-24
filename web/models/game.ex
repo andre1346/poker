@@ -3,13 +3,13 @@ defmodule Poker.Game do
 
 
     schema "game" do
-    	field :player_amount, :integer
-   end
+    	field :player_name, :integer
 
    def changeset(struct, params \\ %{}) do
       struct
-       |> cast(params, [:player_amount])
-       |> validate_required([:player_amount])
+       |> cast(params, [:player_name])
+       |> validate_required([:player_name])
    end
 
+ end
 end

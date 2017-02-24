@@ -18,6 +18,7 @@ defmodule Poker.Router do
 
     get "/", PageController, :index
     get "/new/game", GameController, :new
+    post "/player_name", GameController, :create
   end
 
   # Other scopes may use custom stacks.
